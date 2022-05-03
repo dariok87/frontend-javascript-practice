@@ -1,5 +1,5 @@
 /*
-  Excercise #1
+  Excercise # 1
 
   Write some code that declares two variables, character and timesToRepeact.
   Using a loop, repeat that character that many times and then console.log it.
