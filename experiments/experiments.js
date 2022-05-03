@@ -7,8 +7,15 @@
   'fffff'
 */
 
+let character = 'f';
+let timesToRepeat = 5;
+let myString = '';
 
-console.log("hi lol");
+for (let i = 0; i < timesToRepeat; i++) {
+  myString = myString + character;
+}
+
+console.log(myString);
 
 
 
