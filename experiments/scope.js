@@ -1,4 +1,4 @@
-const A = "A";
+/*const A = "A";
 let F;
 
 function doStuff(B) {
@@ -26,5 +26,26 @@ console.log(G); // not working, declared inside the while loop and it's over
 doStuff("B");
 console.log(B); // not working, the B parameter expires after the function call
 console.log(C); // not working, C was declared inside the function and the function is over
-console.log(F); // working, F was declared in the global scope
+console.log(F); // working, F was declared in the global scope */
 
+// # 2 Practice
+
+let something = 'outside the function';
+let thingToKeep;
+
+function thing() {
+  let something = 'outside the if statement';
+  if (true) {
+    let something = 'inside the if statement';
+    console.log(something);
+  }
+  console.log(something);
+  thingToKeep = 'defined now';
+}
+
+console.log(thingToKeep);
+console.log(something);
+thing();
+
+console.log(something);
+console.log(thingToKeep);
